@@ -16,7 +16,7 @@
             
     
     
-    # Your code here
+    
 
 
 # Here is an example showing the desired behavior of cached_execution:
@@ -43,11 +43,11 @@ def time_execution(code):
 
 cache = {} # start cache as an empty dictionary
 ### first execution (should print out Running factorial and the result)
-#print cached_execution(cache, factorial, 50)
+print cached_execution(cache, factorial, 50)
 
 #print "Second time:"
 ### second execution (should only print out the result)
-#print cached_execution(cache, factorial, 50)
+print cached_execution(cache, factorial, 50)
 
 # Here is a more interesting example using cached_execution
 # (do not worry if you do not understand this, though,
